@@ -1,0 +1,14 @@
+{
+    "name": "M-Portfolio",
+    "short_name": "M-Portfolio",
+    "icons": [
+        {
+            "src": "/img/favicons/android-chrome-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}

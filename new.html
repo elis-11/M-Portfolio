@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon.png">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <!-- icons -->
+    <link rel="stylesheet" href="style.css">
+    <!-- favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- favicons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=La Belle Aurore|Bebas Neue">
+    <title>Elis</title>
+</head>
+
+<body>
+
+    <!-- Sprite -->
+    <!-- social_icon -->
+    <svg style="display: none;">
+        <symbol id="facebook" viewBox="0 0 23.101 23.101">
+            <g>
+                <path d="M8.258,4.458c0-0.144,0.02-0.455,0.06-0.931c0.043-0.477,0.223-0.976,0.546-1.5c0.32-0.522,0.839-0.991,1.561-1.406
+                C11.144,0.208,12.183,0,13.539,0h3.82v4.163h-2.797c-0.277,0-0.535,0.104-0.768,0.309c-0.231,0.205-0.35,0.4-0.35,0.581v2.59h3.914
+                c-0.041,0.507-0.086,1-0.138,1.476l-0.155,1.258c-0.062,0.425-0.125,0.819-0.187,1.182h-3.462v11.542H8.258V11.558H5.742V7.643
+                h2.516V4.458z" />
+            </g>
+        </symbol>
+
+        <symbol id="twitter" viewBox="0 0 512 512">
+            <g>
+                <path d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
+                c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992
+                c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056
+                c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152
+                c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792
+                c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44
+                C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568
+                C480.224,136.96,497.728,118.496,512,97.248z" />
+            </g>
+        </symbol>
+
+        <symbol id="linkedin" viewBox="0 0 512 512">
+            <g>
+                <path d="m475.074219 0h-438.148438c-20.394531 0-36.925781
+            16.53125-36.925781 36.925781v438.148438c0 20.394531 16.53125
+            36.925781 36.925781 36.925781h438.148438c20.394531 0 36.925781-16.53125 36.925781-36.925781v-438.148438c0-20.394531-16.53125-36.925781-36.925781-36.925781zm-293.464844 387h-62.347656v-187.574219h62.347656zm-31.171875-213.1875h-.40625c-20.921875 0-34.453125-14.402344-34.453125-32.402344 0-18.40625 13.945313-32.410156 35.273437-32.410156 21.328126 0 34.453126 14.003906 34.859376 32.410156 0 18-13.53125 32.402344-35.273438 32.402344zm255.984375 213.1875h-62.339844v-100.347656c0-25.21875-9.027343-42.417969-31.585937-42.417969-17.222656 0-27.480469 11.601563-31.988282 22.800781-1.648437 4.007813-2.050781 9.609375-2.050781 15.214844v104.75h-62.34375s.816407-169.976562 0-187.574219h62.34375v26.558594c8.285157-12.78125 23.109375-30.960937 56.1875-30.960937
+            41.019531 0 71.777344 26.808593 71.777344 84.421874zm0 0" />
+            </g>
+        </symbol>
+    </svg>
+    <!-- social_icon -->
+
+    <header class="header">
+        <div class="header_inner">
+            <div class="header_logo">
+                <h3>E</h3>
+                <h4>Elisa</h4>
+                <h6 class="wd">Web Developer</h6>
+            </div>
+
+            <nav class="nav">
+                <a class="nav_link active" href="#home">Home</a>
+                <a class="nav_link" href="#about">About</a>
+                <a class="nav_link" href="#block">My Skils</a>
+                <a class="nav_link" href="#work">Projects</a>
+                <a class="nav_link" href="#service">Service</a>
+                <a class="nav_link" href="#reviews">Reviews</a>
+                <a class="nav_link" href="#team">Team</a>
+                <a class="nav_link" href="#contact">Contact</a>
+            </nav>
+
+
+            <div class="burger">
+                <span class="burg"> </span>
+            </div>
+
+            <div class="icons">
+
+                <div class="social social--footer">
+                    <a class="social_item" href="#" target="blank">
+                        <svg class="social_icon">
+                            <use xlink:href="#facebook"></use>
+                        </svg>
+                    </a>
+                    <a class="social_item" href="#" target="blank">
+                        <svg class="social_icon">
+                            <use xlink:href="#twitter"></use>
+                        </svg>
+                    </a>
+                    <a class="social_item" href="#" target="blank">
+                        <svg class="social_icon">
+                            <use xlink:href="#linkedin"></use>
+                        </svg>
+                    </a>
+
+                </div>
+            </div>
+
+
+        </div>
+    </header>
+    <div class="intro" id="home">
+        <div class="intro_inner">
+            <h2 class="intro_suptitle"></h2>
+            <p class="tags"><&#8725html></p>
+            <h2 class="intro_title">
+
+                Hi, <br>
+                I'm Elisa, <br>
+                web developer
+            </h2>
+            <div class="expert">Week End Developer / WordPress Expert</div>
+            <a class="btn btn--red  btn--long" href="#">My Projects</a>
+        </div>
+
+        <div class="slider">
+            <div class="container">
+                <div class="slider_inner">
+
+                    <div class="slider_item active">
+                        <a class="box nav_link" href="https://site1-one.vercel.app/" target="blank"> <span
+                                class="slider_num">01</span> Project</a>
+                    </div>
+                    <div class="slider_item">
+                        <a class="box nav_link" href="https://elis1.vercel.app/" target="blank"> <span
+                                class="slider_num">02</span> Project</a>
+
+                    </div>
+                    <div class="slider_item">
+                        <a class="box nav_link" href="https://github.com/elis-11" target="blank"> <span
+                                class="slider_num">03</span> work</a>
+
+                    </div>
+                    <div class="slider_item">
+                        <a class="box nav_link" href="https://github.com/elis-11" target="blank"> <span
+                                class="slider_num">04</span> Contacts</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- title -->
+    <section class="section" id="about">
+        <div class="container">
+
+            <div class="section_header">
+                <h3 class="section_suptitle">What I do</h3>
+                <h2 class="section_title">STORY ABOUT ME</h2>
+                <div class="section_text">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque dolorum veniam placeat
+                        perferendis modi cum, molestias, magnam ullam ut sint asperiores quod vero nisi dolore
+                        repudiandae fugiat nesciunt non excepturi.
+                    </p>
+                </div>
+            </div>
+
+
+            <!-- 3 bilder -->
+            <div class="card">
+                <div class="card_item">
+                    <div class="card_img">
+                        <img src="/img/s1/1.png" alt="">
+                    </div>
+                    <div class="card_text">my Study</div>
+                </div>
+                <div class="card_item">
+                    <div class="card_img">
+                        <img src="/img/s1/2.png" alt="">
+                    </div>
+                    <div class="card_text">my Experiens</div>
+                </div>
+                <div class="card_item">
+                    <div class="card_img">
+                        <img src="/img/s1/3.png" alt="">
+                    </div>
+                    <div class="card_text">my Projects</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- services -->
+    <section class="section" id="block">
+        <div class="container">
+
+            <div class="section_header">
+                <h3 class="section_suptitle">I work with</h3>
+                <h2 class="section_title">amazing services</h2>
+            </div>
+
+            <div class="services">
+                <div class="services_item">
+                    <div class="services_icon"><i class="fa fa-picture-o"></i></div>
+                    <div class="services_title">Photography</div>
+                    <div class="services_text">Lorem ipsum dolor sit amet consectetur adipisicing. Duam maxime adipisci
+                        autem </div>
+                </div>
+                <div class="services_item">
+                    <div class="services_icon"><i class="fa fa-university"></i></div>
+
+                    <div class="services_title">Web Design</div>
+                    <div class="services_text">Lorem ipsum dolor sit amet consectetur adipisicing. Duam maxime adipisci
+                        autem </div>
+                </div>
+                <div class="services_item">
+                    <div class="services_icon"><i class="fa fa-calendar"></i></div>
+                    <div class="services_title">Creativity
+                    </div>
+                    <div class="services_text">Lorem ipsum dolor sit amet consectetur adipisicing. Duam maxime adipisci
+                        autem </div>
+                </div>
+            </div>
+            <hr>
+            <div class="services">
+                <div class="services_item">
+                    <div class="services_icon"><i class="fa fa-ravelry"></i></div>
+                    <div class="services_title">SEO</div>
+                    <div class="services_text">Lorem ipsum dolor sit amet consectetur adipisicing. Duam maxime adipisci
+                        autem </div>
+                </div>
+                <div class="services_item">
+                    <div class="services_icon"><i class="fa fa-html5"></i></div>
+                    <div class="services_title">CSS/HTML/JS</div>
+                    <div class="services_text">Lorem ipsum dolor sit amet consectetur adipisicing. Duam maxime adipisci
+                        autem </div>
+                </div>
+                <div class="services_item">
+                    <div class="services_icon"><i class="fa fa-wpexplorer"></i></div>
+                    <div class="services_title">Digital</div>
+                    <div class="services_text">Lorem ipsum dolor sit amet consectetur adipisicing. Duam maxime adipisci
+                        autem </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- container -->
+    </section>
+    <!-- services -->
+
+
+    <!-- devices -->
+    <section class="section section--devices" id="work">
+        <div class="container">
+            <div class="section_header">
+                <h3 class="section_suptitle">For all devices</h3>
+                <h2 class="section_title">UNIQUR Design</h2>
+            </div>
+
+            <div class="devices">
+                <!-- <img class="devices_item" src="/img/dev/1.png" alt=""> -->
+                <img class="devices_item devices_item--1" src="/img/dev/2.png" alt="">
+            </div>
+
+        </div>
+    </section>
+    <!-- statistic -->
+    <div class="statistic" id="">
+        <div class="container">
+
+            <div class="stat">
+                <div class="stat_item">
+                    <div class="stat_count">447</div>
+                    <div class="stat_text">Web Design Project</div>
+                </div>
+                <div class="stat_item">
+                    <div class="stat_count">1</div>
+                    <div class="stat_text">happy client</div>
+                </div>
+                <div class="stat_item">
+                    <div class="stat_count">62</div>
+                    <div class="stat_text">award winner</div>
+                </div>
+                <div class="stat_item">
+                    <div class="stat_count">18973</div>
+                    <div class="stat_text">cup of coffee</div>
+                </div>
+                <div class="stat_item">
+                    <div class="stat_count">94</div>
+                    <div class="stat_text">members</div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    <!-- statistic -->
+    <section class="section" id="service">
+        <div class="container">
+
+            <div class="section_header">
+                <h3 class="section_suptitle">Service</h3>
+                <h2 class="section_title">What I do</h2>
+                <div class="section_text">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque dolorum veniam placeat
+                        perferendis modi cum, molestias, magnam ullam ut sint asperiores quod vero nisi dolore
+                        repudiandae fugiat nesciunt non excepturi.
+                    </p>
+                </div>
+            </div>
+
+            <div class="wedo">
+                <div class="wedo_item">
+                    <!-- <img src="http://placehold.it/570x380" alt=""> -->
+                    <img class="wedo_img" src="/img/s1/7.jpg" alt="">
+                </div>
+                <div class="wedo_item">
+                    <div class="accordion">
+
+                        <div class="accordion_item">
+                            <div class="accordion_header">
+                                <!-- <img class="accordion_icon" src="/img/logo/2.png" alt=""> -->
+                                <div class="accordion_title">Photography</div>
+                            </div>
+                            <div class="accordion_content">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ab dignissimos eos
+                                    odit, aperiam earum ea veritatis laboriosam hic atque id libero facere omnis, vero
+                                    iure numquam! Consectetur, deleniti vero? Lorem ipsum,
+                                    dolor sit amet consectetur adipisicing elit. Optio illo asperiores error neque
+                                    placeat veritatis laudantium velit eum et, unde molestiae quod, odio explicabo
+                                    corporis! Illum magnam fuga nisi impedit?</p>
+                            </div>
+                        </div>
+
+                        <div class="accordion_item active">
+                            <div class="accordion_header">
+                                <!-- <img class="accordion_icon" src="/img/logo/1.png" alt=""> -->
+                                <div class="accordion_title">Creativity</div>
+                            </div>
+                            <div class="accordion_content">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ab dignissimos eos
+                                    odit, aperiam earum ea veritatis laboriosam hic atque id libero facere omnis, vero
+                                    iure numquam! Consectetur, deleniti vero? Lorem ipsum,
+                                    dolor sit amet consectetur adipisicing elit. Optio illo asperiores error neque
+                                    placeat veritatis laudantium velit eum et, unde molestiae quod, odio explicabo
+                                    corporis! Illum magnam fuga nisi impedit?</p>
+                            </div>
+                        </div>
+
+
+                        <div class="accordion_item">
+                            <div class="accordion_header">
+                    <div class="services_icon"><i class="fa fa-html5"></i></div>
+                                <!-- <img class="accordion_icon" src="/img/logo/3.png" alt=""> -->
+                                <div class="accordion_title">WEB Design</div>
+                    <div class="services_icon"><i class="fa fa-chevron-down"></i></div>
+                    <div class="services_icon"><i class="fa fa-chevron-up"></i></div>
+
+                            </div>
+                            <div class="accordion_content">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ab dignissimos eos
+                                    odit, aperiam earum ea veritatis laboriosam hic atque id libero facere omnis, vero
+                                    iure numquam! Consectetur, deleniti vero? Lorem ipsum,
+                                    dolor sit amet consectetur adipisicing elit. Optio illo asperiores error neque
+                                    placeat veritatis laudantium velit eum et, unde molestiae quod, odio explicabo
+                                    corporis! Illum magnam fuga nisi impedit?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- wedo -->
+
+        </div>
+        <!-- container -->
+    </section>
+
+    <!-- section--gray -->
+    <div class="section section--gray">
+        <div class="container">
+
+            <div class="reviews" id="reviews">
+
+                <a class="reviews_btn reviews_btn--prev" href="#">Prev</a>
+                <a class="reviews_btn reviews_btn--next" href="#">Next</a>
+
+                <div class="reviews_item">
+                    <img class="reviews_photo" src="http://placehold.it/145" alt="">
+                    <div class="reviews_text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione maiores
+                        quidem necessitatibus nulla possimus quae provident et. Laborum, earum. Error sint obcaecati
+                        aliquid id consectetur tenetur eveniet quis ab perferendis."</div>
+                    <div class="reviews_author">Jon Doe</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- title -->
+    <section class="section" id="team">
+        <div class="container">
+
+            <div class="section_header">
+                <h3 class="section_suptitle">Who we are</h3>
+                <h2 class="section_title">MEAT MY COLLEAGUES </h2>
+                <div class="section_text">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque dolorum veniam placeat
+                        perferendis modi cum, molestias, magnam ullam ut sint asperiores quod vero nisi dolore
+                        repudiandae fugiat nesciunt non excepturi.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 3 bilder -->
+            <div class="card">
+
+                <div class="card_item">
+                    <div class="card_img">
+                        <img src="/img/team/1.jpg" alt="">
+                    </div>
+
+                    <div class="card_text">
+                        <div class="social">
+
+                            <a class="social_item" href="#" target="blank">
+                                <svg class="social_icon">
+                                    <use xlink:href="#facebook"></use>
+                                </svg>
+                            </a>
+                            <a class="social_item" href="#" target="blank">
+                                <svg class="social_icon">
+                                    <use xlink:href="#twitter"></use>
+                                </svg>
+                            </a>
+                            <a class="social_item" href="#" target="blank">
+                                <svg class="social_icon">
+                                    <use xlink:href="#linkedin"></use>
+                                </svg>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card_item">
+                    <div class="card_img">
+                        <img src="/img/team/2.jpg" alt="">
+                    </div>
+                    <div class="card_text">
+                        <div class="social">
+
+                            <a class="social_item" href="#" target="blank">
+                                <svg class="social_icon">
+                                    <use xlink:href="#facebook"></use>
+                                </svg>
+                            </a>
+                            <a class="social_item" href="#" target="blank">
+                                <svg class="social_icon">
+                                    <use xlink:href="#twitter"></use>
+                                </svg>
+                            </a>
+                            <a class="social_item" href="#" target="blank">
+                                <svg class="social_icon">
+                                    <use xlink:href="#linkedin"></use>
+                                </svg>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card_item">
+                    <div class="card_img">
+                        <img src="/img/team/3.jpg" alt="">
+                    </div>
+                    <div class="card_text">
+                        <div class="social">
+
+                            <a class="social_item" href="#" target="blank">
+                                <svg class="social_icon">
+                                    <use xlink:href="#facebook"></use>
+                                </svg>
+                            </a>
+                            <a class="social_item" href="#" target="blank">
+                                <svg class="social_icon">
+                                    <use xlink:href="#twitter"></use>
+                                </svg>
+                            </a>
+                            <a class="social_item" href="#" target="blank">
+                                <svg class="social_icon">
+                                    <use xlink:href="#linkedin"></use>
+                                </svg>
+                            </a>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+        <!-- card -->
+        </div>
+    </section>
+
+
+    <!-- Download -->
+    <div class="contact" id="contact">
+        <div class="container">
+            <h3 class="contact_title">Are You Ready to Start?Download Now For Free!</h3>
+            <div class="contact_text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            </div>
+            <a class="btn" href="#">Contact me</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+
+            <div class="footer_inner">
+                <div class="footer_block">
+                    <h4 class="footer_title">Location</h4>
+                    <address class="footer_adress">
+                        <div>3941 Melrose Place.</div>
+                        <div>Beverly Hills, CA 364738</div>
+
+                    </address>
+                </div>
+                <div class="footer_block">
+                    <h4 class="footer_title">Share with Love TRALALA</h4>
+                    <div class="social social--footer">
+                        <a class="social_item" href="#" target="blank">
+                            <svg class="social_icon">
+                                <use xlink:href="#facebook"></use>
+                            </svg>
+                        </a>
+                        <a class="social_item" href="#" target="blank">
+                            <svg class="social_icon">
+                                <use xlink:href="#twitter"></use>
+                            </svg>
+                        </a>
+                        <a class="social_item" href="#" target="blank">
+                            <svg class="social_icon">
+                                <use xlink:href="#linkedin"></use>
+                            </svg>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="footer_block">
+                    <h4 class="footer_title">About ActiveBox</h4>
+                    <div class="footer_text">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque molestias eligendi maxime
+                            TRALALA</p>
+                    </div>
+                </div>
+            </div>
+            <!--footer_inner  -->
+        </div>
+        <!--container  -->
+
+        <div class="copyright">
+            <div class="container">
+                <div class="copyright_text">
+                    <div>Copyright 2021 ActiveBox. All Rights Reserved </div>
+                    <div>Made with Y <span> by Tralala</span></div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!--footer  -->
+
+
+
+</body>
+
+</html>
