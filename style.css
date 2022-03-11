@@ -118,7 +118,7 @@ hr {
 /* .header
 =============== */
 .header {
-  width: 8%;
+  width: 140px;
   height: 100vh;
   position: fixed;
   text-align: center;
@@ -176,6 +176,7 @@ hr {
   justify-content: center;
   height: 100vh;
   padding-top: 100px;
+  margin-left: 80px;
 }
 .intro_inner {
   width: 100%;
@@ -445,6 +446,8 @@ p {
   flex-wrap: wrap;
   /* background-color: #cfc9c9; */
   padding: 0 0 0 8%;
+  margin-left: 60px;
+  
 }
 .works_item {
   width: 28%;
@@ -500,6 +503,8 @@ p {
 /* team */
 .team {
   margin: 100px 0 70px;
+  margin-left: 40px;
+
 }
 .team_inner {
   display: flex;
